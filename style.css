@@ -1,0 +1,79 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo fontes */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Seção de introdução */
+#intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#intro .content {
+    width: 60%;
+}
+
+#intro .image img {
+    width: 35%;
+    border-radius: 8px;
+}
+
+/* Seção de interações */
+#interactions {
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+#interactions h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.interaction {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #e8f5e9;
+    border-radius: 8px;
+}
+
+.interaction h3 {
+    color: #388e3c;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
